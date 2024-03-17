@@ -23,36 +23,35 @@ import {
                 alt="Flowbite Logo"
                 // name="Start your IT career with CSTAD"
               />
-              <FooterTitle className="text-white mt-4" title="Start your IT career with CSTAD" />
+              <FooterTitle className="text-white mt-4 tracking-wider" title="Start your IT career with CSTAD" />
             </div>  
               <div>
-                <FooterTitle className="text-white tracking-wide" title="learn more" />
+                <FooterTitle className="text-white tracking-wider" title="learn more" />
                 <FooterLinkGroup col>
-                  <FooterLink className="text-white" href="/course">Course</FooterLink>
-                  <FooterLink className="text-white" href="/itnew">IT News</FooterLink>
-                  <FooterLink className="text-white" href="jobopportunity">Job Opportuniry</FooterLink>
+                  <FooterLink className="text-white tracking-wider" href="/course">Course</FooterLink>
+                  <FooterLink className="text-white tracking-wider" href="/itnew">IT News</FooterLink>
+                  <FooterLink className="text-white tracking-wider" href="jobopportunity">Job Opportuniry</FooterLink>
                 </FooterLinkGroup>
               </div>
               <div>
-                <FooterTitle className="text-white" title="Contact Us" />
+                <FooterTitle className="text-white tracking-wider" title="Contact Us" />
                 <FooterLinkGroup col>
-                  <FooterLink className="text-white" href="#">(+885) 95-990-910</FooterLink>
-                  <FooterLink className="text-white" href="#">(+885) 93-990-910</FooterLink>
+                  <FooterLink className="text-white tracking-wider" href="#">(+885) 95-990-910</FooterLink>
+                  <FooterLink className="text-white tracking-wider" href="#">(+885) 93-990-910</FooterLink>
                 </FooterLinkGroup>
               </div>
               <div>
-                <FooterTitle className="text-white" title="Follow Us" />
-                <FooterBrand className="w-[200]"
+                <FooterTitle className="text-white tracking-wider" title="Follow Us" />
+                <FooterBrand className=""
                 href="https://istad.co/"
-                src="/about-logo.png"
+                src="/footer-img.jpg"
                 alt="Flowbite Logo"
-                
               />
               </div>
           </div>
           <FooterDivider/>
           <div className="w-full text-center sm:flex sm:items-center justify-center">
-            <FooterCopyright className="text-white" href="#" by="Center of Science and Technology Advanced Development | All Rights Reserved" year={2022} />
+            <FooterCopyright className="text-white tracking-wider" href="#" by="Center of Science and Technology Advanced Development | All Rights Reserved" year={2022} />
           </div>
         </div>
       </Footer>

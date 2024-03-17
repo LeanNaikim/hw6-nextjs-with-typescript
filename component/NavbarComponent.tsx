@@ -11,16 +11,16 @@ export default function NavbarComponent() {
       </NavbarBrand>
       <NavbarToggle />
       <NavbarCollapse>
-        <NavbarLink  className="text-base text-white" href="/">
+        <NavbarLink  className="text-base text-white tracking-wider" href="/">
           Home
         </NavbarLink>
-        <NavbarLink  className="text-base text-white" as={Link} href="/enroll">
+        <NavbarLink  className="text-base text-white tracking-wider" as={Link} href="/enroll">
           Enroll
         </NavbarLink>
-        <NavbarLink  className="text-base text-white" href="/course">Course</NavbarLink>
-        <NavbarLink  className="text-base text-white" href="/itnew">IT News</NavbarLink>
-        <NavbarLink  className="text-base text-white" href="/jobopportunity">Job Opportunity</NavbarLink>
-        <NavbarLink  className="text-base text-white" href="/about">About Us</NavbarLink>
+        <NavbarLink  className="text-base text-white tracking-wider" href="/course">Course</NavbarLink>
+        <NavbarLink  className="text-base text-white tracking-wider" href="/itnew">IT News</NavbarLink>
+        <NavbarLink  className="text-base text-white tracking-wider" href="/jobopportunity">Job Opportunity</NavbarLink>
+        <NavbarLink  className="text-base text-white tracking-wider" href="/about">About Us</NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );
