@@ -17,7 +17,7 @@ import {
         <div className="w-full">
           <div className="w-full flex justify-between sm:flex sm:items-center sm:justify-between">
             <div>
-              <FooterBrand className="w-[200]"
+              <FooterBrand className="w-[200px]"
                 href="https://flowbite.com"
                 src="/logo.png"
                 alt="Flowbite Logo"
@@ -31,8 +31,6 @@ import {
                   <FooterLink className="text-white" href="/course">Course</FooterLink>
                   <FooterLink className="text-white" href="/itnew">IT News</FooterLink>
                   <FooterLink className="text-white" href="jobopportunity">Job Opportuniry</FooterLink>
-                  <FooterLink className="text-white" href="#">Privacy Policy</FooterLink>
-                  <FooterLink className="text-white" href="#">FAQ</FooterLink>
                 </FooterLinkGroup>
               </div>
               <div>
@@ -46,7 +44,7 @@ import {
                 <FooterTitle className="text-white" title="Follow Us" />
                 <FooterBrand className="w-[200]"
                 href="https://istad.co/"
-                src="/logo.png"
+                src="/about-logo.png"
                 alt="Flowbite Logo"
                 
               />
